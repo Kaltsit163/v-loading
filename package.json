@@ -4,19 +4,33 @@
   "version": "1.0.0",
   "author": "liuyejunnan@163.com",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "autoprefixer": "^9.1.2",
+    "postcss-px2rem": "^0.3.0",
+    "raw-loader": "^0.5.1",
     "vue": "^2.5.11"
   },
+  "keywords": [
+    "vue",
+    "loading",
+    "vue-plugin",
+    "vue-loading"
+  ],
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:Tamamoran/v-loading.git"
+  },
+  "homepage": "https://github.com/Tamamoran/v-loading",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",

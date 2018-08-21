@@ -3,6 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>v-loading</title>
+    <script>
+      var docEl = document.documentElement
+      docEl.style.fontSize = 20 / 375 * docEl.clientWidth + 'px'
+      window.addEventListener('resize', function () {
+        docEl.style.fontSize = 20 / 375 * docEl.clientWidth + 'px'
+      })
+    </script>
   </head>
   <body>
     <div id="app"></div>
