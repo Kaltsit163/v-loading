@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'v-loading.js'
+    filename: 'vv-loading.js'
   },
   module: {
     rules: [{

@@ -1,5 +1,5 @@
 {
-  "name": "v-loading",
+  "name": "vv-loading",
   "description": "Vue-loading Vue-plugin",
   "version": "1.0.1",
   "author": "liuyejunnan@163.com",
@@ -9,7 +9,7 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
-  "main": "dist/v-loading.js",
+  "main": "dist/vv-loading.js",
   "dependencies": {
     "autoprefixer": "^9.1.2",
     "postcss-px2rem": "^0.3.0",
